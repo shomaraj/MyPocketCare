@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shoma.mypocketcare.model.AddIncomeFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_IncomeCategory"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Click the Category"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_gravity="right"
+        android:id="@+id/spinner_Income_category">
+    </Spinner>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_Income_Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description "
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:id="@+id/edittext_Income_Description"
+                android:layout_marginTop="15dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_Income_Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="date"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:id="@+id/edittext_Income_Date"
+                android:layout_marginTop="15dp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+            />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_Income_Amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Amount"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:id="@+id/edittext_Income_Amount"
+                android:layout_marginTop="15dp" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:id="@+id/button_Add_Income"
+            android:text="ADD INCOME"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+</FrameLayout>
